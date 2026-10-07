@@ -12,7 +12,7 @@ CREATE TABLE usuarios (
 --
 
 insert into usuarios Values (
-NULL, 'Laila', 'L4il4', '12356'
+NULL, 'Geovanna', 'Geov4nn4', '12356'
 );
 
 SELECT *
