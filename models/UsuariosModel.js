@@ -30,4 +30,5 @@ const criarUsuario = async (
                 login,
                 senha
         )
-   
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+`;
