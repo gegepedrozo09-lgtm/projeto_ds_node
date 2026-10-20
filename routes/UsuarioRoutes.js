@@ -23,3 +23,5 @@ router.post(
     "/login",
     usuarioController.login.Usuario
 );
+
+module.exports = routes;
