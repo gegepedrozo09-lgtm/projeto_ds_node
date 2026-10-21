@@ -46,4 +46,8 @@ const [resultado] = await db.execute(sql, [
                 estado,
                 login,
                 senha
+            ] ) ;
+
+            return resultado;
+            
     
