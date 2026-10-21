@@ -32,3 +32,18 @@ const criarUsuario = async (
         )
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 `;
+
+const [resultado] = await db.execute(sql, [
+     nome,
+                email,
+                telefone,
+                cep,
+                endereco,
+                numero,
+                complemento,
+                bairro,
+                cidade,
+                estado,
+                login,
+                senha
+    
